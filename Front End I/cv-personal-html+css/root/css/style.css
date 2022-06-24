@@ -1,0 +1,54 @@
+header {
+    background-image: url(https://chequeado.com/wp-content/uploads/2019/10/pinos-1280x549.jpg);
+    
+    background-size: 2200px 200px;
+
+    background-repeat: no-repeat;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    position: relative;
+    left: 150%;
+    
+
+}
+
+#foto-mia {
+    width: 300px;
+    height: 200px;
+    text-align: left;
+}
+
+.titulo {
+    background-color: #403125;
+    color: #ffff;    
+    text-align: center;
+    font-family: 'Playfair Display', sans-serif;
+}
+
+/*Pestana sobre mi*/
+
+h3 {
+    background-color: #403125;
+    color: #ffff;
+    font-family: 'Playfair Display', sans-serif;
+}
+
+li {
+    font-family: 'Playfair Display', sans-serif;
+    color: #403125;
+}
+
+main{
+    height: 1380px;
+}
+/* footer */
+
+footer {
+    background-color: #403125;
+    color: #ffff;
+    font-family: 'Playfair Display', sans-serif;
+    text-align: center;
+}

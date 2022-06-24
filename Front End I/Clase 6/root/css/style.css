@@ -1,0 +1,80 @@
+/* Barra superior */
+
+.barra-superior {
+    background-color:#222222;
+    color: #F3F3F3;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+}
+
+/* Menu principal */
+
+.menu-principal{
+    background-color: #F0A83E;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px
+
+}
+
+/* Seccion banner */
+
+#h1{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    color: #3C2313;
+    
+    background-color: #FFFFFF;
+    border-radius: 5px;
+}
+
+#text-comedero{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #3C2313;
+}
+
+#bottom-comedero{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+
+    background-color: #F0A83E;
+    border-radius: 5px;
+}
+
+/* Seccion productos */
+
+#paw-products{
+    text-align: center;
+}
+
+#products-title{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #3C2313;
+}
+
+#categorias{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+

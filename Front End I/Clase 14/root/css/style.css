@@ -1,0 +1,194 @@
+/* HEADER */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.descuento {
+    height: 35px;
+
+   background-color: #D1891C;
+   color: #333333;
+   
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 30px;
+   line-height: 56px;
+
+}
+
+h5{
+   position: relative;
+   left: 50px;
+   bottom: 10px;
+
+}
+
+.titulo {
+    background-color: #00669F;
+    color: #fff;
+    box-shadow: 0px 10px 7px rgba(0,0,0,0.25);
+
+    padding: 15px;
+    
+    box-sizing: border-box;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 84px;
+}
+
+h1 {
+    position: relative;
+    left: 30px;
+}
+
+/* MAIN */
+/* LA CARTA DE BATMAN */
+.batman-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 350px;
+    height: 700px;
+    margin: 60px;
+    box-shadow: 0px 4px 4px 4px rgba(0,0,0,0.25);
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.fondo-batman {
+    width: 350px;
+    height: 240px;
+    position: relative;
+    bottom: 15px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.perfil-batman {
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+    position: relative;
+    bottom: 135px;
+}
+
+/* .corazon-batman {
+    position: relative;
+    top: -500px;
+    width: 30px;
+} el corazon queda mal posicionado*/
+
+.fondo {
+    width: 350px;
+    height: 250px;
+    position: relative;
+    bottom: 15px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.perfil {
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+    position: relative;
+    bottom: 125px;
+}
+
+.corazon {
+    position: relative;
+    top: -380px;
+    left: -130px;   
+}
+
+#corazon-size {
+    width:30px;
+}
+
+main {
+    display: flex;
+    height: 70vh;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 350px;
+    height: 700px;
+    margin: 60px;
+    box-shadow: 0px 4px 4px 4px rgba(0,0,0,0.25);
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom: 0px;
+}
+
+h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;   
+    font-size: 30px;
+    line-height: 75px; 
+}
+
+#name-batman {
+    position: relative;
+    top: -190px;
+}
+
+#name-mujer {
+    position: relative;
+    top: -160px;
+}
+
+#name-super {
+    position: relative;
+    top: -170px
+}
+
+#name-harley {
+    position: relative;
+    top: -170px;
+}
+
+p {
+    padding: 0px 20px 0px 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+/* TEXTOS */
+#text-batman {
+    position: relative;
+    top: -200px;
+}
+
+.text{
+    position: relative;
+    top: -155px;
+}
+
+/* BOTON VER MAS */
+
+.bottom {
+    position: relative;
+    top: -100px;
+    background-size: 90px 22px;
+    background-color: #00669F;
+    padding: 10px
+}
+
+/* FOOTER */
+

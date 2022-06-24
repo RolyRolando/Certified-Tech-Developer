@@ -1,0 +1,36 @@
+/*Asi se deberia hacer para comentar el codigo*/
+
+/*el selector de etiquetas modifica a todas las etiquetas*/
+
+/* TIPOGRAFIA */
+
+/* IMPORTANDO UNA TIPOGRAFIA
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap'); */
+
+.serif {
+    font-family: 'Playfair Display', serif;
+}
+
+/*HEADER*/
+
+.logo-header {
+    width: 50px;
+}
+
+/*sacar las viñetas a la UL, ponerle fondo negro y letra de color blanco */
+
+.nav-header {
+    list-style-type: none;
+}
+
+.section-header{
+    background-image: url(https://p4.wallpaperbetter.com/wallpaper/320/812/886/leo-messi-hd-image-download-wallpaper-preview.jpg);
+
+    /* background-size: contain; */
+
+    background-position: center;
+   
+}
+
+/* ICONO USER */
+

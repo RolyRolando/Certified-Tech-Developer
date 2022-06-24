@@ -1,0 +1,1 @@
+CSS Flexbox Cheatsheet, esa extensión en el vscode te dice que hace cada propiedad, es como un machete

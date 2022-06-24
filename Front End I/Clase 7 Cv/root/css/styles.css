@@ -1,0 +1,15 @@
+.centrado {
+    text-align: center;
+    background-color: #E6E6E6;
+}
+
+.titulo {
+    text-transform: uppercase;
+    color: #005677;
+    background-color: #C4C4C4;
+    text-align: center;
+    font-style: "Times New Roman";
+    font-size: 35px;
+}
+
+

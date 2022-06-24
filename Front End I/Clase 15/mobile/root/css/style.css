@@ -1,0 +1,55 @@
+/* estilos del header */
+
+/* viewport mobile */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header-home {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(48, 239, 166, 0.661);
+    padding: 10px 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.img-react {
+    width: 75px; 
+}
+
+.fa-burger {
+    font-size: 2rem;
+}
+
+nav {
+    display: none;
+}
+
+/* MEDIA QUERIES */
+/* MIN-WIDTH: APARTIR DE */
+
+@media (min-width: 600px) {
+    .fa-burger {
+        display: none;
+    }
+
+    nav {
+        display: block;
+        width: 50%;
+    }
+
+    nav ul {
+        display:flex;
+        justify-content: space-around;
+        gap: 5%;
+    }
+}
+
