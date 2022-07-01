@@ -1,3 +1,7 @@
+
+/* MOBILE FIRST CON UN WIDTH DE 390PX*/
+
+
 body {
     margin: 0 0 0 0;
     padding: 0;
@@ -6,10 +10,14 @@ body {
 
 /*HEADER*/
 
-.img-header {
+.header {
     display: flex;
     justify-content: space-between;
-    margin: 10%;
+    margin: 2rem;
+}
+
+#icono-burger{
+    margin-left: 10rem;
 }
 
 /* IMAGEN DEL MAIN */
@@ -30,7 +38,8 @@ h1 {
     color: #232851;
     text-align: center;
 
-    margin: 1% 3%;
+    margin: 1rem 0.6rem 0rem 0.6rem;
+    
 }
 
 .texto-principal {
@@ -42,7 +51,7 @@ h1 {
     color: #B3B2B7;
     text-align: center;
 
-    margin: 1% 15%;
+    margin: 0.5rem 3rem;
 }
 
 .encabezado {
@@ -80,7 +89,7 @@ h2 {
     line-height: 140%;
     text-align: center;
 
-    margin: 30% 15% 3% 15%;
+    margin: 6rem 3rem 1rem 3rem;
     color:#232851
 }
 
@@ -116,7 +125,7 @@ h2 {
     color: #ffffff;
 
     background-color: #F3603B;
-    padding: 2.5% 6%;
+    padding: 0.6rem 1.5rem;
     margin: 0rem 0.8rem 0rem 0rem;
     border-radius: 50px;
 
@@ -325,6 +334,10 @@ i:hover {
     cursor: pointer;
 }
 
+.logo-footer-mobile {
+    margin-left: 4.5rem;
+}
+
 .derechos {
     font-family: 'Be Vietnam Pro', sans-serif;
     font-style: normal;
@@ -333,4 +346,284 @@ i:hover {
     line-height: 18px;
     color: #8C8C94;
     margin-top: 2.5rem;
+}
+
+@media (max-width: 1089px) {
+
+    .lista-header {
+        display: none;
+    }
+
+    #boton-header {
+        display: none;
+    }
+
+    .user-view-desktop{
+        display:none;
+    }
+
+    br {
+        display:none
+    }
+}
+
+/* RESPONSIVE PARA MONITOR DE 1920PX */
+
+@media (min-width: 1090px) {
+
+/*AREA DEL HEADER*/
+
+    .header {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10rem;
+    }
+
+    #imagen-header{
+        width: 10%;
+        margin-left: 10rem;
+    }
+
+    .lista-header {
+        display: flex;
+        justify-content: space-around;
+
+        font-family: 'Be Vietnam Pro', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 2.5rem;
+        color: #242E52;
+    }
+
+    .enlaces-header {
+        margin-right: 3rem;
+    }
+
+    .enlaces-header:hover {
+        color: #B3B2B7;
+        cursor: pointer;
+    }
+
+    #icono-burger {
+        display: none;
+    }
+
+    #boton-header {
+        background-color: #F3603B;
+        padding: 1rem 3rem;
+        margin-right: 11rem;
+        
+        text-decoration: none;
+        font-family: 'Be Vietnam Pro', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        color: #ffffff;
+        
+        border: none;
+        border-radius: 80px;
+        box-shadow: 0px 0px 5px 0px rgba(187, 69, 39, 0.612);
+    }
+
+    #boton-header:hover {
+        background-color: #ee8267;
+        cursor: pointer;
+    }
+
+    .boton {
+        padding: 1rem 3rem;
+    }
+
+/*AREA DE LA IMAGEN Y TEXTO INICIAL*/
+
+    .imagen-texto{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+    }
+
+    .graficos {
+        width: 35vw;
+        height: 65vh;
+    }
+
+    .encabezado {
+        width: 45vw;
+        height: 65vh;
+        
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    h1{
+        font-size: 62px;
+        line-height: 74px;
+        text-align: left;
+
+        margin-bottom: 1rem;
+        margin-left: 0;
+    }
+
+    .texto-principal {
+        width: 19vw;
+        text-align: left;
+        font-size: 18px;
+        margin-left: 0;
+    }
+
+    /* AREA DE SEGUNDO TEXTO Y TEXTO ENUMERADO */
+
+    .texto-numeraciones{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    h2 {
+        width: 32vw;
+
+        font-size: 42px;
+        text-align: left;
+        line-height: 3rem;
+        margin-left: 0;
+        margin-bottom: 1.5rem;
+    }
+
+    .titulo-numeracion{
+        background-color: #ffffff;
+        width: 32vw;
+        font-size: 18px;
+    }
+
+    .numeracion{
+        padding: 0.8rem 1.8rem;
+        margin-right: 1.2rem;
+    }
+
+    .texto {
+        font-size: 18px;
+        width: 24vw;
+        margin-left: 6rem;
+    }
+
+
+/* AREA DE TEXTO DE CLIENTES */
+
+    .title-users-buttom {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .titulo-usuarios {
+        margin-left: 19rem;
+    }
+
+    .user-cards {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        margin: 0rem 3rem 3rem 3rem;
+    }
+
+    .area-cliente {
+        margin-top: 4rem;
+        width: 35rem;
+    }
+
+    .carrusel {
+        display: none;
+    }
+
+/* FOOTER AREA NARANJA */
+
+    .area-naranja {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: flex-start;
+        padding: 6rem 0rem 6rem 0rem;
+    }
+
+    .titulo-footer {
+        margin: 0rem 0rem 0rem 2rem;
+        text-align: left;
+        font-size: 48px;
+        letter-height: 48px;
+    }
+
+    .boton-area-naranja {
+        margin-top: 2rem;
+        margin-left: 20rem;
+        margin-right: 3rem;
+        padding: 1rem 3rem;
+    }
+
+    /* FOOTER AREA OSCURA */
+
+    .final-footer {
+        display: flex;
+        justify-content: center;
+        padding: 0;
+    }
+    
+    .formulario {
+        height: 1rem;
+       display: flex;
+       order: 2;
+       margin-top: 3rem;
+       margin-right: 5rem;
+    }
+
+    .boton-formulario {
+       height: 3.3rem;
+    }
+
+    .lista-footer-flex {
+        display: flex;
+        order: 1;
+    }
+
+    .lista-footer {
+        width: 20rem;
+        height: 5rem;
+        margin-top: 5rem;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    i {
+        font-size: 20px;
+        width: 0.3vw;
+    }
+
+    .logo-footer {
+       margin-bottom: 2rem;
+       margin-right: 4.5rem;
+    }
+
+    .iconos-logo {
+        width: 20rem;
+        height: 5rem;
+
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        
+        margin: 7rem 3rem 0rem 0rem;
+    }
+
+    .derechos {
+        height: 2rem;
+        position: relative;
+        left: 75rem;
+        bottom: 4rem
+    }
 }
